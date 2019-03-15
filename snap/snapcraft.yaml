@@ -1,0 +1,25 @@
+name: magic-launch
+title: The magic-launch Launcher Stage Snap
+# FIXME: Should use `bare` adapter when available
+base: core18
+version: git
+summary: Setup the environment for libmagic applications
+description: |
+  This stage snap ships a launcher to set-up proper environment for snaps using libmagic.  Refer [the snapcraft forum topic](https://forum.snapcraft.io/t/the-magic-launch-launcher-stage-snap/10442) for more info regarding the use of this stage snap.
+
+grade: stable
+# As this is a stage snap classic confinement isn't needed
+confinement: strict
+
+# We only ship launcher here, don't do duplicate work
+# Build on s390x architecture as the build machine is least busy
+architectures:
+- build-on: s390x
+  run-on: all
+
+parts:
+  main:
+    source: snap/local/launchers
+    plugin: dump
+    organize:
+      '*': launchers/
