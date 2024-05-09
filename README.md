@@ -16,8 +16,8 @@ Refer [the Snapcraft Forum topic](https://forum.snapcraft.io/t/the-magic-launch-
       # Launcher for fixing libmagic applications
       # https://forum.snapcraft.io/t/the-magic-launch-launcher-fix-file-type-detection-based-on-libmagic-in-the-snap-runtime/10442
       magic-launch:
-        source: https://github.com/Lin-Buo-Ren/magic-launch.git
-        source-tag: v2.0.0
+        source: https://gitlab.com/brlin/magic-launch.git
+        source-tag: v2.0.3
         plugin: dump
         stage:
           - bin/*
