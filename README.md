@@ -2,7 +2,7 @@
 
 This launcher fixes libmagic file type autodetection compatibility in snaps.
 
-Refer [the snapcraft forum topic](https://forum.snapcraft.io/t/the-magic-launch-launcher-fix-file-type-detection-based-on-libmagic/10442) for more info regarding the use of this stage snap.
+Refer [the Snapcraft Forum topic](https://forum.snapcraft.io/t/the-magic-launch-launcher-fix-file-type-detection-based-on-libmagic/10442) for more info regarding the use of this stage snap.
 
 <https://gitlab.com/brlin/magic-launch>  
 [![The GitLab CI pipeline status badge of the project's `main` branch](https://gitlab.com/brlin/magic-launch/badges/main/pipeline.svg?ignore_skipped=true "Click here to check out the comprehensive status of the GitLab CI pipelines")](https://gitlab.com/brlin/magic-launch/-/pipelines) [![GitHub Actions workflow status badge](https://github.com/brlin-tw/magic-launch/actions/workflows/check-potential-problems.yml/badge.svg "GitHub Actions workflow status")](https://github.com/brlin-tw/magic-launch/actions/workflows/check-potential-problems.yml) [![pre-commit enabled badge](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white "This project uses pre-commit to check potential problems")](https://pre-commit.com/) [![REUSE Specification compliance badge](https://api.reuse.software/badge/gitlab.com/brlin/magic-launch "This project complies to the REUSE specification to decrease software licensing costs")](https://api.reuse.software/info/gitlab.com/brlin/magic-launch)
