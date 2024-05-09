@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 # Launcher to make libmagic work, refer file(1), magic(5) manual pages
+#
+# Copyright 2023 林博仁(Buo-ren, Lin) <Buo.Ren.Lin@gmail.com>
+# SPDX-License-Identifier: MIT
 export MAGIC="${SNAP}"/usr/share/misc/magic
 exec "${@}"
