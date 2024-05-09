@@ -1,6 +1,6 @@
 # The `magic-launch` snap enablement launcher
 
-This launcher that fixes libmagic file type autodetection compatibility in snaps.
+This launcher fixes libmagic file type autodetection compatibility in snaps.
 
 Refer [the snapcraft forum topic](https://forum.snapcraft.io/t/the-magic-launch-launcher-fix-file-type-detection-based-on-libmagic/10442) for more info regarding the use of this stage snap.
 
@@ -49,7 +49,7 @@ Refer [the snapcraft forum topic](https://forum.snapcraft.io/t/the-magic-launch-
          - bin/magic-launch
    ```
 
-## Snaps that use this stage snap
+## Snaps that use this launcher
 
 * [Install (UNOFFICIAL) nano for Linux using the Snap Store | Snapcraft](https://snapcraft.io/nano) - [source](https://github.com/snapcrafters/nano)
 
